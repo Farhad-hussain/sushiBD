@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
+}
+
+h1{
+    font-size: 44px;
+    line-height: 1.2em;
+}
+
+.brand-color{
+    color: #DF5518;
+}
+
+.white-color{
+    color: white;
+}
+
+.big{
+    font-size: 40px;
+}
+
+.hero{
+    background-image: url(images/sushi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-width{
+    width: 50%;
+    padding: 40px 40px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.hero-text{
+    font-size: 100px;
+    text-align: center;
+    border: 20px solid #ffffff;
+    max-width: 170px;
+    margin: auto;
+}
+
+.flexible-container{
+    display: flex;
+    padding: 40px 20px;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(#DF5518 , #ff907c);
+    background-color: #F36958;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 500px;
+    color: white;
+}
+
+.image-center{
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#special-border{
+    border-bottom: 7px solid;
+    border-image: linear-gradient(#DF5518 , #ff907c );
+    border-image-slice: 1;
+}
+
+.menu-item{
+    width: 33.33%;
+    margin: 20px;
+    box-shadow: 10px 10px 40px #00000050;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cta{
+    padding-top: 50px;
+    background-image: url(images/sushi-pattern.png);
+}
+
+.taste-our-best, .hungry{
+    font-size: 36px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+.footer-cta-left{
+    text-align: right;
+    margin-top: -50px;
+    
+}
+
+.footer-cta-right{
+    text-align: left;
+    margin-top: -50px;
+}
+
+.footer{
+    padding: 20px 40px;
+    background-color:black;
+}
+
+.hero-text-footer{
+    font-size: 40px;
+    text-align: center;
+    border: 10px solid #ffffff;
+    max-width: 80px;
+    margin: auto;
+}
+
+.footer p{
+    color: #e1e1e1;
+    text-align: center;
+    font-weight: 200;
+}
